@@ -1,3 +1,7 @@
+//输入一个字符串，是9的倍数，第1个数字是代表要不要反向，0代表要求后面的8个字符反向，1代表不反向
+//要求输出经过反向的结果
+////比如 "0adfdsdsd1uiiujkds"
+///那么输出为："dsdsdfdauiiujkds"
 #include <iostream>
 #include <string>
 #include <vector>
