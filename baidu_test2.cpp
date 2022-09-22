@@ -27,6 +27,8 @@ vector<vector<int>> cal(vector<int> record, int k){
     int length = min(evenNum, oddNum);
     cout<<"length" <<length<<endl;
     int extra_len = (max(evenNum, oddNum)-length)/2;
+    if(flag==false && oddNum==0) return result;
+    if(flag==true && evenNum==0) return result;
     result=vector<vector<int>>(length+extra_len, vector<int>(2));
     int count = 0;
     int end = 1;
